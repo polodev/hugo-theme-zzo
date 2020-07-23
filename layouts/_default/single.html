@@ -19,6 +19,11 @@
       {{ partial "body/infos" . }}
       {{ partial "body/tags" . }}
     </div>
+
+    <!-- by shibu deb polo -->
+    {{ partial "body/series.html" . }}
+
+
     <article class="single__contents" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "body/toc" . }}
       {{ .Content }}
