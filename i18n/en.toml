@@ -40,6 +40,9 @@ other = "WRITTEN BY"
 [toc-label]
 other = "What's on this Page"
 
+[series-label]
+other = "List of posts Under this Series"
+
 [counter-site-pv]
 other = "Total views"
 
